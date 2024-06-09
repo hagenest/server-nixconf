@@ -71,8 +71,8 @@
   };
 
   networking.firewall = {
-    enable = false;
-    allowedTCPPorts = [ 80 443 3001 ];
+    enable = true;
+    allowedTCPPorts = [ 80 443 3001 9000 ];
   };
 
   boot.tmp.cleanOnBoot = true;
